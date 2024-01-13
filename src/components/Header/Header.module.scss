@@ -1,0 +1,15 @@
+.header {
+    padding: 30px 0;
+    &__row {
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__box {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left {
+        max-width: 527px;
+        width: 100%;
+    }
+}
