@@ -1,3 +1,4 @@
+import { CustomButton } from '../CustomButton/CustomButton';
 import { TitleInfo } from '../TitleInfo/TitleInfo';
 import styles from './About.module.scss';
 
@@ -17,7 +18,9 @@ export const About: React.FC = () => {
                             textInfo="There are many things are needed 
                                 to start the Fast Food Business. You need not only Just Food Stalls with Persons but also 
                                 equipment  make your marketing plane Effective."
-                        />
+                            className={styles.titleInfo}
+                        />  
+                        <CustomButton pY={11} pX={20} title="Read More" />
                     </div>
                 </div>
             </div>
