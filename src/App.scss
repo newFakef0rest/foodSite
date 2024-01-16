@@ -1,0 +1,12 @@
+.posterImage {
+    position: relative;
+    &__box {
+        position: absolute;
+        top: 30px;
+        right: 30%;
+        transform: translateX(50%);
+        max-width: 801px;
+        max-height: 670px;
+        z-index: -1;
+    }
+}

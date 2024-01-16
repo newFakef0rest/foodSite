@@ -1,9 +1,15 @@
 .customButton {
     background-color: #DC780B;
+    border: 1px solid transparent;
     color: white;
     text-align: center;
     border-radius: 5px;
     font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 16px;
+    &__light {
+        background-color: transparent;
+        border: 1px solid #DC780B;
+        color: #DC780B; 
+    }
 }

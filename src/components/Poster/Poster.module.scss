@@ -1,0 +1,29 @@
+.poster {
+    padding-top: 160px;
+    &__box {
+        max-width: 555px;
+    }
+    &__title {
+        margin-bottom: 42px;
+        h1 {
+            font-size: 49px;
+            font-weight: bold;
+            font-family: Philosopher, sans-serif;
+            color: #150C01;
+        }
+    }
+    &__text {
+        margin-bottom: 52px;
+        p {
+            font-size: 16px;
+            font-family: Roboto, sans-serif;
+            font-weight: 500;
+            color: #150C01;
+        }
+    }
+    &__buttons {
+        button {
+            margin-right: 30px;
+        }
+    }
+}
