@@ -8,6 +8,7 @@ type TInfo = {
 }
 
 export const TitleInfo: React.FC<TInfo> = ({mainTitle, orangeTitle, textInfo, className}) => {
+    let insideClassName = className ? className : '';
     const styleMargin = {
         marginBottom: '0'
     }
@@ -15,7 +16,7 @@ export const TitleInfo: React.FC<TInfo> = ({mainTitle, orangeTitle, textInfo, cl
         styleMargin.marginBottom = '30px'
     }
   return (
-    <div className={`titleInfo ${className}`}>
+    <div className={`titleInfo ${insideClassName}`}>
         <span>{orangeTitle}</span>
         <h3 style={styleMargin}>{mainTitle}</h3>
         {textInfo && <p>{textInfo}</p>}

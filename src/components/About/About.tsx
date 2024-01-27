@@ -19,8 +19,10 @@ export const About: React.FC = () => {
                                 to start the Fast Food Business. You need not only Just Food Stalls with Persons but also 
                                 equipment  make your marketing plane Effective."
                             className={styles.titleInfo}
-                        />  
-                        <CustomButton pY={11} pX={20} title="Read More" />
+                        />
+                        <div className={styles.about__image_box}>
+                            <CustomButton pY={11} pX={20} title="Read More" />
+                        </div>
                     </div>
                 </div>
             </div>

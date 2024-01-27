@@ -1,0 +1,33 @@
+.cart {
+    max-width: 360px;
+    &__info {
+        padding: 25px;
+        border: 1px solid gray;
+    }
+    &__image {
+        margin-bottom: -5px;
+        box-sizing: border-box;
+        img {
+            height: 100%;
+        }
+    }
+    &__headInfo {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        h6 {
+            font-size: 25px;
+            font-weight: bold;
+            font-family: Philosopher, sans-serif;
+        }
+    }
+    &__mainInfo {
+        margin-bottom: 20px;
+        span {
+            font-size: 16px;
+            font-weight: 400;
+            font-family: Roboto, sans-serif;
+            line-height: 24px;
+        }
+    }
+}

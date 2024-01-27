@@ -6,6 +6,7 @@ import PosterImage from './img/poster.png';
 import './App.scss';
 import { Features } from "./components/Features/Features";
 import { About } from "./components/About/About";
+import { Menu } from "./components/Menu/Menu";
 
 const App: React.FC = () => {
 
@@ -21,6 +22,7 @@ const App: React.FC = () => {
         </div>
         <Features />
         <About />
+        <Menu />
       </div>
     </>
   )
