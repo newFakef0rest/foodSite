@@ -1,6 +1,9 @@
 import styles from './Cart.module.scss';
-import CartImage from '../../img/cartItem__1.jpg';
+
 import { CustomButton } from '../CustomButton/CustomButton';
+
+import CartImage from '../../img/cartItem__1.jpg';
+import StarsImage from '../../img/4 stars.svg';
 
 export const Cart = () => {
   return (
@@ -16,10 +19,9 @@ export const Cart = () => {
             <div className={styles.cart__mainInfo}>
                 <span>There are many things are needed to start the Fast Food Business.</span>
             </div>
-            <div className="cart__rate">
-                <CustomButton pY={11} pX={11}/>
-                <button>+</button>
-                <img src="" alt="" />
+            <div className={styles.cart__rate}>
+                <CustomButton pY={7} pX={11} title="+" className={styles.cart__button}/>
+                <img src={StarsImage} alt="" />
             </div>
         </div>
     </div>

@@ -30,4 +30,13 @@
             line-height: 24px;
         }
     }
+    &__rate {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__button {
+        font-size: 18px;
+        width: 36px;
+        height: 36px;
+    }
 }
