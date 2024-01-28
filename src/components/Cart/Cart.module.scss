@@ -1,14 +1,18 @@
 .cart {
     max-width: 360px;
     &__info {
-        padding: 25px;
+        padding: 85px 25px 25px;
         border: 1px solid gray;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
     }
     &__image {
-        margin-bottom: -5px;
+        margin-bottom: -65px;
         box-sizing: border-box;
         img {
             height: 100%;
+            border-top-left-radius: 25%;
+            border-bottom-right-radius: 25%;
         }
     }
     &__headInfo {
