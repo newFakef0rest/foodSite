@@ -2,9 +2,6 @@ import styles from './Cart.module.scss';
 
 import { CustomButton } from '../CustomButton/CustomButton';
 
-import CartImage from '../../img/cartItem__1.jpg';
-import StarsImage from '../../img/4 stars.svg';
-
 type TCart = {
     title: string;
     price: string;
